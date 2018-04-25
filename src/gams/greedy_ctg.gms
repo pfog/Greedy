@@ -3,7 +3,7 @@ $ontext
 solve contingencies in greedy method
 $offtext
 
-$if not set solve_ctgs $set solve_ctgs 0
+$if not set solve_ctgs $set solve_ctgs 1
 
 # fix some complementarities
 genCtgPowRealOverVar.fx(i,j,k)$genCtgActive(i,j,k) = 0;
